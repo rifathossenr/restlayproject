@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
 }
 
 .container{
@@ -365,7 +371,7 @@
 
 
 .itsmsside{
-    width: 500px;
+    width: 600px;
     color: #fff;
 }
 
@@ -385,7 +391,7 @@
 
 .icontext li i{
     margin-right: 25px;
-    font-size: 35px;
+    font-size: 25px;
     color: #104cba;
 }
 
