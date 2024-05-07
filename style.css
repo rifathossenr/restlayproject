@@ -1,0 +1,722 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+.nav1{
+    padding: 15px 0px;
+    background-color: #e5eef6;
+}
+
+.nav1perent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftside{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-left: 80px;
+}
+
+
+.r8perent {
+    display: flex;
+    align-items: center;
+    margin-right: 250px;
+}
+
+
+.scoiallink{
+    display: flex;
+    margin-left: 30px;
+    list-style: none;
+    gap: 20px;
+}
+
+
+.nav2perent{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.logo{
+    height: 105px;
+    width: 345px;
+    background-color: #104cba;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo h1{
+    color: #ffffff;
+    font-size: 40px;
+    margin-left: 70px;
+}
+
+.menus{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menus li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.menulist {
+    margin-left: 45px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.metusbtn a {
+    display: inline-block;
+    background-color: rgb( 16, 76, 186);
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: all .3s;
+    margin-right: 245px;
+}
+
+
+.metusbtn a:hover{
+    background-color: #1d2c38;
+    color: #ffffff;
+}
+
+.herosection{
+    background-image: url(images/meeting\ images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.herosec{
+    text-align: center;
+    padding: 200px 0px;
+    color: #ffffff;
+
+}
+
+.herosec h1{
+    font-size: 72px;
+
+}
+
+.metusbtn2 a{
+    display: inline-block;
+    background-color: rgb( 16, 76, 186);
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: all .3s;
+    margin-top: 20px;
+}
+
+.metusbtn2 a:hover{
+    background-color: #1d2c38;
+    color: #ffffff;
+}
+
+
+.cardwarper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 120px 0px;
+    gap: 20px;
+}
+
+.card{
+    width: 220px;
+    height: 300px;
+    border: 1px solid rgb(0, 0, 0, .1);
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.card h1{
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: #104CBA;
+}
+
+
+
+.card h4 {
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    margin-top: 10px;
+    background-color: #0aeded;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card p {
+    line-height: 1.5;
+}
+
+.hovercard h1{
+    font-size: 19px;
+    color: #ffff;
+}
+
+
+.hovercard a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #285ec1;
+    padding: 10px 30px;
+    width: 150px;
+    color: #ffffff;
+    margin: 30px auto 20px auto;
+    transition: all .5s linear;
+}
+
+.hovercard a:hover{
+    background-color: #1d2c38;
+    color: #ffffff;
+}
+
+.hovercard {
+    background-color: #104cba;
+    color: #ffffff;
+    position: absolute;
+    top: 0px;
+}
+
+.hovercard {
+    background-color: #104cba;
+    color: #ffffff;
+    height: 300px;
+    width: 220px;
+    left: 0px;
+    border-radius: 5px;
+    padding: 20px;
+    line-height: 1.5;
+    opacity: 0;
+    transition: .3s ease-in-out;
+    transform: scale(1.5);
+
+}
+
+.card:hover .hovercard{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+/* sharmin code section start */
+
+.packtitile p{
+    text-align: center;
+    font-size: 15px;
+    color: #104CBA;
+    margin-bottom: 15px;
+
+
+}
+
+
+.packtitile h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.pricecardwraper{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.pricecard{
+    width: 280px;
+    border: 1px solid rgb(238, 235, 235);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 40px 0px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
+}
+
+.pricecard:hover .price{
+    background-color: #104cba;
+    color: #ffffff;
+    background-image: url(https://wptf.themepul.co/restly/wp-content/uploads/2021/04/pricing-b.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pricecard:hover .price h1{
+    color: #ffffff;
+}
+
+
+.price{
+    height: 165px;
+    background-color: #e7edf8;
+    border-radius: 5px;
+    text-align: center;
+    padding: 33px 0px;
+    margin-bottom: 25px;
+    line-height: 1.3;
+    transition: all .4s ease-out;
+}
+
+.pricecard h1{
+    color: #104CBA;
+    transition: all .4s ease-out;
+}
+
+.price h1 span{
+    font-size: 50px;
+    
+}
+
+
+.pricelistitem{
+    list-style: none;
+    line-height: 1.8;
+    text-align: center;
+}
+
+
+.choosebtn{
+    width: 180px;
+    margin: 30px auto;
+}
+
+.choosebtn a {
+    display: block;
+    text-decoration: none;
+    background-color: #104cba;
+    padding: 15px;
+    text-align: center;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 600;
+    transition: all .4s ease-out;
+}
+
+.choosebtn a:hover{
+    background-color: #1d2c38;
+
+}
+
+/* sharmin code section End */
+
+.itsupport{
+    background-color: #0e1e2a;
+    background-image: url(https://wptf.themepul.co/restly/wp-content/uploads/2021/04/abanner.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.itdivwraper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 200px 0px;
+    position: relative;
+}
+
+.itimageside{
+    width: 500px;
+}
+
+
+
+
+.itsmsside{
+    width: 500px;
+    color: #fff;
+}
+
+.fouritemraper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 40px;
+}
+
+.iteam41 ul {
+    list-style: none;
+    line-height: 1.8;
+    font-size: 25px;
+}
+
+.icontext li i{
+    margin-right: 25px;
+    font-size: 35px;
+    color: #104cba;
+}
+
+.icontext li{
+    display: flex;
+    align-items: center;
+}
+
+.itsmsside h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.itsmsside p {
+    line-height: 1.7;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.itsmsside h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+
+.activeclint{
+background-image: url(https://wptf.themepul.co/restly/wp-content/uploads/2021/04/counterbg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 50px;
+border-radius: 10px;
+align-items: center;
+justify-content: space-around;
+display: flex;
+}
+
+.textboxn{
+    text-align: center;
+    color: #fff;
+    line-height: 1.8;
+}
+
+
+
+.profassonalitservices{
+    background-image: url(https://wptf.themepul.co/restly/wp-content/uploads/2021/04/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 40px;
+    margin-top: -185px;
+}
+
+.profassonaltitile{
+    text-align: center;
+    line-height: 1.2;
+}
+
+.profassonaltitile h1{
+    font-size: 35px;
+}
+
+
+.procrdraper{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(280px, 1fr) );
+    gap: 26px;
+    margin-top: 40px;
+}
+
+
+.procrad{
+    width: 280px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.proicon img{
+    width: 50px;
+}
+
+
+.protext h4{
+    margin-bottom: 10px;
+}
+
+.protext p{
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.protext a{
+    text-decoration: none;
+}
+
+
+.servicebtn a{
+    display: block;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: #104CBA;
+    color: #fff;
+    text-decoration: none;
+    transition: all .4s ease-out;
+    width: fit-content;
+    margin: 40px auto;
+}
+
+.servicebtn a:hover{
+    background-color: #1d2c38;
+}
+
+
+
+
+.newscardwraper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.titeletextup{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.titeletextup p{
+    font-size: 40px;
+
+}
+
+.titeletextup h4{
+    color: #104CBA;
+}
+
+
+
+
+.newscard{
+    width: 250px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    margin: 50px 0px;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.imagesdiv img{
+    width: 100%;
+    
+}
+
+.calenderside{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.newstext{
+    padding: 20px;
+}
+
+.cardlogo{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgb(0, 0, 0, .1);
+    gap: 10px;
+    padding: 10px 20px;
+}
+
+.cardlogo img{
+    border-radius: 100%;
+    width: 32px;
+}
+
+.calenderside a {
+    text-decoration: none;
+    font-size: 13px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.titeleanco{
+    text-decoration: none;
+    font-weight: 700;
+    margin: 10px 0px;
+    display: block;
+}
+
+
+.downfoot{
+    background-color: #003fb4;
+}
+
+.fotwraper2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    color: #fff;
+}
+
+.scoiallink2{
+    display: flex;
+    margin-left: 30px;
+    list-style: none;
+    gap: 20px;
+    
+}
+
+.scoiallink2 li a{
+    color: #fff;
+}
+
+
+.footwraper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 0px;
+}
+
+.topfoot{
+    background-color: #104CBA;
+    background-image: url(https://wptf.themepul.co/restly/wp-content/uploads/2021/04/ftbgt-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.listlink h1{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+
+.linklistitm{
+    list-style-type: none;
+    
+}
+
+.linklistitm li{
+    line-height: 2;
+}
+
+
+.linklistitm li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.locationdiv{
+    display: flex;
+    gap: 10px;
+}
+
+.listlink {
+    width: 250px;
+    color: #ffffff;
+    line-height: 2;
+}
+
+.subcribeform{
+    width: 250px;
+    height: 250px;
+    background-color: #2058bf;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    color: #fff;
+}
+
+.inputboxitemprnt{
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.inputboxitemprnt input{
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid #4d79cc;
+    background:  transparent;
+    padding: 5px 17px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.inputboxitemprnt input::placeholder{
+    color: #fff;
+}
+
+.inputboxitemprnt input:focus{
+    outline: none;
+}
+
+
+
+
+
+.inputboxitemprnt button{
+    transition: all .4s;
+    border:  none;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    color: #fff;
+    background-color: #4d79cc;
+    position: absolute;
+    right: 5PX;
+    TOP: 4PX;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.inputboxitemprnt button i{
+    font-size: 20px;
+}
