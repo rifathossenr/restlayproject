@@ -156,19 +156,17 @@
 }
 
 .card{
-    width: 220px;
-    height: 300px;
+    width: 265px;
     border: 1px solid rgb(0, 0, 0, .1);
-    padding: 20px;
+    padding: 22px;
     border-radius: 5px;
     position: relative;
     overflow: hidden;
-
 }
 
 .card h1{
     font-size: 60px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     color: #104CBA;
 }
 
@@ -191,6 +189,7 @@
 
 .card p {
     line-height: 1.5;
+    margin-bottom: 26px;
 }
 
 .hovercard h1{
@@ -226,16 +225,13 @@
 .hovercard {
     background-color: #104cba;
     color: #ffffff;
-    height: 300px;
-    width: 220px;
     left: 0px;
     border-radius: 5px;
-    padding: 20px;
+    padding: 25px;
     line-height: 1.5;
     opacity: 0;
     transition: .3s ease-in-out;
     transform: scale(1.5);
-
 }
 
 .card:hover .hovercard{
